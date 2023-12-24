@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Moisture Data</title>
+        <!-- Include Plotly's JavaScript library -->
+	<!-- <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>  -->
+</head>
+<body>
+    <h1>Moisture data plot</h1>
+    <div id="plot-div">
+        {{ plot_div|safe }}
+    </div>
+    <img src="{{ url_for('show_image') }}" width="640" height="480" />
+</body>
+</html>
+

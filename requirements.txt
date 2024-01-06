@@ -4,3 +4,4 @@ plotly
 pyserial
 numpy
 pandas
+RPi.GPIO
